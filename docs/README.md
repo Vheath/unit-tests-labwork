@@ -26,6 +26,13 @@ print(r.area(a, b)) # выведет площадь прямоугольника
 print(r.perimeter(a, b)) # выведет периметр прямоугольника со сторонами a = 2, b = 3
 ```
 ## Commit history
+```sh
+608d8ce Docs added for every function                                                                                                                         
+6d7609a Fixed calculations of Rectangle perimeter                                                                                                             
+0f3c956 Rectangle added                                                                                                                                       
+d078c8d L-03: Docs added                                                                                                                                      
+8ba9aeb L-03: Circle and square added    
+```                                     
 # Math formulas
 ## Area
 - Circle: S = πR²
