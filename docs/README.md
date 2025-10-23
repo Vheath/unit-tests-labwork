@@ -27,11 +27,13 @@ print(r.perimeter(a, b)) # выведет периметр прямоуголь�
 ```
 ## Commit history
 ```sh
-608d8ce Docs added for every function                                                                                                                         
-6d7609a Fixed calculations of Rectangle perimeter                                                                                                             
-0f3c956 Rectangle added                                                                                                                                       
-d078c8d L-03: Docs added                                                                                                                                      
-8ba9aeb L-03: Circle and square added    
+9ccdd73 documentation added for examples of call
+0babd5d Commit history added
+608d8ce Docs added for every function
+6d7609a Fixed calculations of Rectangle perimeter
+0f3c956 Rectangle added
+d078c8d L-03: Docs added
+8ba9aeb L-03: Circle and square added
 ```                                     
 # Math formulas
 ## Area
