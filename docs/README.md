@@ -33,13 +33,15 @@ print(t.perimeter(a, b, c)) # выведет периметр треугольн
 ```
 ## Commit history
 ```sh
+14b3fe4 Triangle added
+4405f96 Commit history updated
 9ccdd73 documentation added for examples of call
 0babd5d Commit history added
 608d8ce Docs added for every function
 6d7609a Fixed calculations of Rectangle perimeter
 0f3c956 Rectangle added
 d078c8d L-03: Docs added
-8ba9aeb L-03: Circle and square added
+8ba9aeb L-03: Circle and square added    
 ```                                     
 # Math formulas
 ## Area
