@@ -11,4 +11,3 @@ def perimeter(a, b):
     # Пример: print(perimeter(2.5, 3.5))
     # Вывод: 12.0    
     return 2*(a + b)
-
