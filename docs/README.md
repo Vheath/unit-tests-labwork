@@ -60,6 +60,7 @@ print(s.permiter(5)) # 20
 #### triangle.area\(a, h\)
 - Принимает h - длина высоты треугольника, a - длина основания, в которую направлена высота h
 - Возвращает площадь треугольника с длиной высоты h, и длиной основания a
+Пример:
 ```python
 import triangle as t
 print(t.area(2.5, 3)) # 3.75
@@ -67,6 +68,7 @@ print(t.area(2.5, 3)) # 3.75
 #### triangle.perimeter\(a, b, c\)
 - Принимает a, b, c - длины трех сторон треугольника
 - Возвращает периметр треугольника с длинами сторон a, b, c
+Пример:
 ```python
 import triangle as t
 print(perimeter(2, 3, 4)) # 9
@@ -97,6 +99,8 @@ print(t.perimeter(a, b, c)) # выведет периметр треугольн
 ```
 ## Commit history
 ```sh
+fa74e64 Documentation for functions added
+243d37c Commit history updated
 14b3fe4 Triangle added
 4405f96 Commit history updated
 9ccdd73 documentation added for examples of call
