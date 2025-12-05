@@ -1,9 +1,23 @@
-# Docs
+# Geometric Lib
 ## Solution Description
 Реализованы операции для вычисления площади и периметра для следующих фигур:
 - [Окружность](../circle.py)
 - [Прямоугольник](../rectangle.py)
 - [Квадрат](/square.py)
+## Testing 
+Библиотека включает в себя набор unit-тестов, проверяющих корректность работы всех функций написанных модулей (всего 43 теста):
+Команда для запуска всех тестов:
+```zsh
+python -m unittest discover ./tests/ -p '*_test.py'  
+```
+
+Команды для запуска тестов отдельно:
+```zsh
+python -m unittest ./tests/circle_test.py 
+python -m unittest ./tests/rectangle_test.py
+python -m unittest ./tests/square_test.py
+python -m unittest ./tests/triangle_test.py
+```
 ## Functions Description
 ### Cicle
 #### circle.area\(r\)
@@ -99,17 +113,19 @@ print(t.perimeter(a, b, c)) # выведет периметр треугольн
 ```
 ## Commit history
 ```sh
+321d005 tests added 
+234d5c6 documentation improved
 fa74e64 Documentation for functions added
 243d37c Commit history updated
-14b3fe4 Triangle added
+14b3fe4 Triangle
 4405f96 Commit history updated
 9ccdd73 documentation added for examples of call
 0babd5d Commit history added
 608d8ce Docs added for every function
 6d7609a Fixed calculations of Rectangle perimeter
-0f3c956 Rectangle added
+0f3c956 Rectangle
 d078c8d L-03: Docs added
-8ba9aeb L-03: Circle and square added    
+8ba9aeb L-03: Circle and square added  
 ```                                     
 # Math formulas
 ## Area
