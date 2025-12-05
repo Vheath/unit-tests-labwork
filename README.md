@@ -115,6 +115,11 @@ print(t.perimeter(a, b, c)) # выведет периметр треугольн
 ```
 ## Commit history
 ```sh
+f58a41d Delete tests/__pycache__ directory
+6d4778a Delete __pycache__ directory
+a095259 Merge pull request #1 from Vheath/new_features                                                                                                        
+0036f3c negative values handling added
+47c3f02 docs improved        
 321d005 tests added 
 234d5c6 documentation improved
 fa74e64 Documentation for functions added
