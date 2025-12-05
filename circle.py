@@ -1,10 +1,17 @@
 import math
 
-
 def area(r):
-    return math.pi * r * r
+    # Принимает r - радиус окружности
+    # Возвращает площадь окружности с радиусом r
+    # Пример: print(area(2.5))
+    # Вывод: 19.634954084936208 
+    return abs(math.pi * r * r)
 
 
 def perimeter(r):
-    return 2 * math.pi * r
+    # Принимает r - радиус окружности
+    # Возвращает длину окружности с радиусом r
+    # Пример: print(perimeter(2.5))
+    # Вывод: 15.707963267948966
+    return abs(2 * math.pi * r)
 
