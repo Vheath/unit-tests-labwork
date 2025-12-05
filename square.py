@@ -4,7 +4,7 @@ def area(a):
     # Возвращает площадь квадрата со стороной a
     # Пример: print(area(2.5))
     # Вывод: 6.25    
-    return a * a
+    return abs(a * a)
 
 
 def perimeter(a):
@@ -12,4 +12,4 @@ def perimeter(a):
     # Возвращает периметр квадрата со стороной a
     # Пример: print(perimeter(2.5))
     # Вывод: 10.0    
-    return 4 * a
+    return abs(4 * a)

@@ -9,6 +9,11 @@ class RectangleTestCase(unittest.TestCase):
         res = rectangle.area(10, 0)
         self.assertEqual(res, 0)
 
+    # Площадь: Прямоугольник со отрицательной стороной
+    def test_negative_area(self):
+        res = rectangle.area(-5, 4)
+        self.assertEqual(res, 20)
+
     # Площадь: Прямоугольник с обычными сторонами
     def test_regular_area(self):
         res = rectangle.area(5, 4)
@@ -37,6 +42,11 @@ class RectangleTestCase(unittest.TestCase):
     # Периметр: обычные длины сторон 
     def test_regular_perimeter(self):
         res = rectangle.perimeter(10, 5)
+        self.assertEqual(res, 30)
+
+    # Периметр: отрицательные длины сторон 
+    def test_negative_perimeter(self):
+        res = rectangle.perimeter(-10, 5)
         self.assertEqual(res, 30)
 
     # Периметр: нецелочисленные длины сторон

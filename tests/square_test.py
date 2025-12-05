@@ -14,6 +14,11 @@ class SquareTestCase(unittest.TestCase):
         res = square.area(5)
         self.assertEqual(res, 25)
 
+    # Площадь: Квадрат с отрицательной стороной
+    def test_negative_area(self):
+        res = square.area(-5)
+        self.assertEqual(res, 25)
+
     # Площадь: Квадрат с длинами сторон 1, 1
     def test_one_square_area(self):
         res = square.area(1)
@@ -38,6 +43,11 @@ class SquareTestCase(unittest.TestCase):
     # Периметр: Обычные длины сторон 
     def test_regular_perimeter(self):
         res = square.perimeter(10)
+        self.assertEqual(res, 40)
+
+    # Периметр: Отрицательные длины сторон 
+    def test_negative_perimeter(self):
+        res = square.perimeter(-10)
         self.assertEqual(res, 40)
 
     # Периметр: Нецелочисленные длины сторон

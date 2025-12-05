@@ -13,7 +13,13 @@ class CircleTestCase(unittest.TestCase):
     # Площадь: обычный радиус
     def test_regular_area(self):
         res = circle.area(2)
-        expected = math.pi * 4  # π * 2^2
+        expected = math.pi * 4  
+        self.assertAlmostEqual(res, expected, places=9)
+
+    # Площадь: отрицательный радиус
+    def test_negative_area(self):
+        res = circle.area(-2)
+        expected = math.pi * 4
         self.assertAlmostEqual(res, expected, places=9)
 
     # Площадь: радиус = 1
@@ -64,5 +70,12 @@ class CircleTestCase(unittest.TestCase):
     def test_big_perimeter(self):
         r = 10 ** 12
         res = circle.perimeter(r)
+        expected = 2 * math.pi * r
+        self.assertAlmostEqual(res, expected, places = 9)
+
+    # Периметр: отрицательный радиус
+    def test_negative_perimeter(self):
+        r = 10 ** 12
+        res = circle.perimeter(-r)
         expected = 2 * math.pi * r
         self.assertAlmostEqual(res, expected, places = 9)

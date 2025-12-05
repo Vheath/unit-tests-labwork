@@ -23,6 +23,11 @@ class TriangleTestCase(unittest.TestCase):
         res = triangle.area(5, 4)
         self.assertEqual(res, 10)
 
+    # Площадь: отрицательные значения
+    def test_negative_area(self):
+        res = triangle.area(-5, 4)
+        self.assertEqual(res, 10)
+
     # Площадь: основание и высота = 1
     def test_one_side_area(self):
         res = triangle.area(1, 2)
@@ -46,6 +51,11 @@ class TriangleTestCase(unittest.TestCase):
     # Периметр: обычные длины сторон
     def test_regular_perimeter(self):
         res = triangle.perimeter(3, 4, 5)
+        self.assertEqual(res, 12)
+
+    # Периметр: отрицательные длины сторон
+    def test_negative_perimeter(self):
+        res = triangle.perimeter(-3, -4, -5)
         self.assertEqual(res, 12)
 
     # Периметр: нецелочисленные длины сторон
